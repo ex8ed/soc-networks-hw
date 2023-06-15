@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graph>
+<node>
+    <source>0</source>
+    <target>1</target>
+</node>
+<node>
+    <source>0</source>
+    <target>3</target>
+</node>
+<node>
+    <source>0</source>
+    <target>4</target>
+</node>
+<node>
+    <source>1</source>
+    <target>2</target>
+</node>
+<node>
+    <source>1</source>
+    <target>4</target>
+</node>
+<node>
+    <source>1</source>
+    <target>5</target>
+</node>
+<node>
+    <source>2</source>
+    <target>3</target>
+</node>
+<node>
+    <source>2</source>
+    <target>5</target>
+</node>
+<node>
+    <source>2</source>
+    <target>6</target>
+</node>
+<node>
+    <source>3</source>
+    <target>4</target>
+</node>
+<node>
+    <source>3</source>
+    <target>6</target>
+</node>
+<node>
+    <source>3</source>
+    <target>7</target>
+</node>
+<node>
+    <source>4</source>
+    <target>5</target>
+</node>
+<node>
+    <source>4</source>
+    <target>7</target>
+</node>
+<node>
+    <source>4</source>
+    <target>8</target>
+</node>
+<node>
+    <source>5</source>
+    <target>6</target>
+</node>
+<node>
+    <source>5</source>
+    <target>8</target>
+</node>
+<node>
+    <source>5</source>
+    <target>9</target>
+</node>
+<node>
+    <source>6</source>
+    <target>7</target>
+</node>
+<node>
+    <source>6</source>
+    <target>9</target>
+</node>
+<node>
+    <source>6</source>
+    <target>10</target>
+</node>
+<node>
+    <source>7</source>
+    <target>8</target>
+</node>
+<node>
+    <source>7</source>
+    <target>10</target>
+</node>
+<node>
+    <source>7</source>
+    <target>11</target>
+</node>
+<node>
+    <source>8</source>
+    <target>9</target>
+</node>
+<node>
+    <source>8</source>
+    <target>11</target>
+</node>
+<node>
+    <source>8</source>
+    <target>12</target>
+</node>
+<node>
+    <source>9</source>
+    <target>10</target>
+</node>
+<node>
+    <source>9</source>
+    <target>12</target>
+</node>
+<node>
+    <source>0</source>
+    <target>9</target>
+</node>
+<node>
+    <source>10</source>
+    <target>11</target>
+</node>
+<node>
+    <source>0</source>
+    <target>10</target>
+</node>
+<node>
+    <source>1</source>
+    <target>10</target>
+</node>
+<node>
+    <source>11</source>
+    <target>12</target>
+</node>
+<node>
+    <source>1</source>
+    <target>11</target>
+</node>
+<node>
+    <source>2</source>
+    <target>11</target>
+</node>
+<node>
+    <source>0</source>
+    <target>12</target>
+</node>
+<node>
+    <source>2</source>
+    <target>12</target>
+</node>
+<node>
+    <source>3</source>
+    <target>12</target>
+</node>
+
+</graph>
