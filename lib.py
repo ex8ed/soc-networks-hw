@@ -59,14 +59,10 @@ class GGenerator:
             if l_ < 0:
                 links[i] = self.__nodes + l_
         links.remove(0)
-
         links = list(set(links))
+        self.__links = links
 
-        e = []
-        for i in range(self.__nodes):
-            for j in links:
-                e.append((i, (i + j) % self.__nodes))
-        return e
+        return self.__calc_cir_edges()
 
 
 class Extractor:
@@ -78,13 +74,13 @@ class Extractor:
     def writer(cls, graph: ig.Graph(), name='cir', ex='gml'):
         """Exports files in different formats"""
         if ex == 'gml':
-            with open(f'{name}.{ex}', 'w') as file:
+            with open(f'./exports/{name}.{ex}', 'w') as file:
                 ig.Graph.write_gml(graph, file)
         elif ex == 'adj':
-            with open(f'{name}.txt', 'w') as file:
+            with open(f'./exports/{name}.txt', 'w') as file:
                 ig.Graph.write_adjacency(graph, file)
         elif ex == 'xml':
-            with open(f'{name}.{ex}', 'w') as file:
+            with open(f'./exports/{name}.{ex}', 'w') as file:
                 edges = graph.get_edgelist()
                 data = xml_graph % ''.join(xml_node % (pair[0], pair[1]) for pair in edges)
                 file.write(data)
